@@ -1,25 +1,9 @@
-## Overview
-HTPmod is a Shiny application for modeling and visualization of large-scale biological data. 
+![](https://shiny-app-store3.s3.amazonaws.com/approvedapp/s065_8wZwZA7wZgqkngFxYuGdmrSLD7y9WYj8IHDXjA7X_logo_371.jpg)
 
-## Repo Contents
-   * `HTPmod`: the main page of the app
-   * `growmod`: the gowtMod module for growth modeling
-   * `htpdvis`: the htpdVis module for data visualization 
-   * `predmod`: the predMod module for prediction purposes 
 
-## System Requirements
-### Hardware Requirements
-   This app can run on a "normal" computer with enough RAM. We recommend a computer with the following specs: 8+ GB of RAM and 4+ CPU cores with 3.3+ GHz/core 
-### Software Requirements
-   HTPmod is developed in R. A [Shiny Server](https://www.rstudio.com/products/shiny/shiny-server/) is required to run this app. It has been tested on Windows (with RStudio), Mac OS (with RStudio) and Linux (with Shiny Server) systems. Please see [this](https://github.com/htpmod/HTPmod-shinyApp/wiki/Install) for installation on a Linux-based web server (it will take for 1-2 hours). 
 
-## Documentation 
-We have extensive documentation for how to use HTPmod at https://github.com/htpmod/HTPmod-shinyApp/wiki. 
+# HTPmod: Model and Visualize Large-Scale Biological Data
 
-## Online demonstration 
-Please check [this](http://www.epiplant.hu-berlin.de/shiny/app/HTPmod/) for online demo. 
+#### Use app online: __[www.shinyappstore.com/a/HTPmod](https://shinyappstore.com/a/HTPmod)__
 
-## Reference: 
-The HTPmod Shiny application enables modeling and visualization of large-scale biological data. 
-Dijun Chen, Liang-Yu Fu, Dahui Hu, Christian Klukas, Ming Chen & Kerstin Kaufmann
-doi: https://doi.org/10.1038/s42003-018-0091-x
+HTPmod is a versatile application designed for modeling and visualizing large-scale datasets obtained from high-throughput plant phenotyping (HTP) or high-throughput sequencing (HTS) experiments. Plant phenotyping involves the quantitative measurement of plant traits, such as growth patterns, under various conditions. For instance, growMod, one of the modules in HTPmod, facilitates plant growth modeling using time-series data from HTP experiments. Another module, predMod, includes prediction models to identify relationships between independent measurements and target traits, aiding in understanding complex factors like the impact of chromatin features on gene expression or predicting plant biomass from image-derived features. The third module, htpdVis, employs machine learning approaches like PCA, t-SNE, SOM, MDS, K-MC, or HCA with heatmap to explore and visualize high-dimensional data effectively. Overall, HTPmod enhances the analysis and interpretation of large-scale datasets, contributing to advancements in plant research and phenotyping methodologies. Original publication: The HTPmod Shiny application enables modeling and visualization of large-scale biological data. Dijun Chen, Liang-Yu Fu, Dahui Hu, Christian Klukas, Ming Chen & Kerstin Kaufmann doi: https://doi.org/10.1038/s42003-018-0091-x
